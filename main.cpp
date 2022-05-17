@@ -17,12 +17,12 @@ int main() {
     }
 
     while (true) {
-        x = (a+b)/2;
-        if (f(x) != 0) {
+        a = (a+b)/2;
+        if (f(a) != 0) {
             if (f(a) * f(b) < 0) {
-                b = x;
+                x = b;
             } else {
-                a = x;
+                x = a;
             }
             err = abs((b - a) / 2);
             if (err < 10 * exp(6)) {
