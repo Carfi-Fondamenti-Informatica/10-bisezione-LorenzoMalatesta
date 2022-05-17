@@ -25,7 +25,9 @@ int main() {
         err = abs((b - a) / 2);
     } while (err>=1e-6);
 
-    cout << x;
+    
+    
+    cout << (x*10000)/10000.0;
     cout << fx;
 
     return 0;
