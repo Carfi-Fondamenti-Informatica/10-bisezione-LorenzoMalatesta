@@ -7,7 +7,7 @@ float f (float y) {
 }
 
 int main() {
-    float a=0, b=0, err=0, x=0;
+    float a=0, b=0, err=0, x=-1;
     while (true) {
         cout << "inserire estremi";
         cin >> a >> b;
@@ -18,7 +18,7 @@ int main() {
 
     while (true) {
         a = (a+b)/2;
-        if (f(a) != 0) {
+        if (f(x) != 0) {
             if (f(a) * f(b) < 0) {
                 x = b;
             } else {
