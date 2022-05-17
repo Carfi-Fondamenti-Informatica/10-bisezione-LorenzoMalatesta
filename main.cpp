@@ -28,7 +28,6 @@ int main() {
     
     
     cout << x;
-    cout << fx;
 
     return 0;
 }
