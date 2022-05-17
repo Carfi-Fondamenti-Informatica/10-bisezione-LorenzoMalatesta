@@ -12,7 +12,7 @@ int main() {
     } while (fa*fb >= 0);
 
     do {
-        x = (a+b)/2;
+        x = (a+b)*0.5;
         fx = x * x * cos(x) + 1;
         if (fx == 0) {
             break;
@@ -22,12 +22,12 @@ int main() {
         } else {
             a=x;
         }
-        err = abs((b - a) / 2);
+        err = abs((b - a)*0.5);
     } while (err>=1e-6);
 
     
     
-    cout << (x*10000)/10000.0;
+    cout << x;
     cout << fx;
 
     return 0;
