@@ -9,7 +9,7 @@ int main() {
         cin >> a >> b;
         fa = a * a * cos(a) + 1;
         fb = b * b * cos(b) + 1;
-    } while (fa*fb >= 0);
+    } while (fa*fb >= 0.);
 
     do {
         x = (a+b)*0.5;
