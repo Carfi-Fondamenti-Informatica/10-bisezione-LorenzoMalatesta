@@ -26,7 +26,7 @@ int main() {
     } while (err>=1e-6);
 
     
-    
+    x=int(x*10000)/10000.0;
     cout << x;
 
     return 0;
