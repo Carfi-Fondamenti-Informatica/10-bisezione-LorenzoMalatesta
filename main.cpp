@@ -2,9 +2,8 @@
 #include <math.h>
 using namespace std;
 
- int main() {
-    return 0;
- float f(float n){
+ 
+float f (float n){
      float y;
      y= (pow(n,2))*(cos(n))+1;
      return y;
